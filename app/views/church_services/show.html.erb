@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Weekday:</strong>
+  <%= @church_service.weekday %>
+</p>
+
+<p>
+  <strong>Schedule:</strong>
+  <%= @church_service.schedule %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @church_service.name %>
+</p>
+
+<%= link_to 'Edit', edit_church_service_path(@church_service) %> |
+<%= link_to 'Back', church_services_path %>

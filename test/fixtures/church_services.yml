@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+service_one:
+  weekday: sunday
+  schedule: "07:00:00"
+  name: Culto da Alvorada
+
+service_two:
+  weekday: saturday
+  schedule: "18:30:00"
+  name: Culto dos Jovens
